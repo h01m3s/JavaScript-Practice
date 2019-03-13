@@ -16,5 +16,20 @@ console.log(
 
 console.log(
   // Or
+  // Decompose
   elements.map(({ length }) => length)
 );
+
+function Person() {
+  this.age = 0;
+
+  setInterval(() => {
+    this.age++;
+  }, 1000);
+}
+
+var p = new Person();
+
+setInterval(() => {
+  console.log(p.age);
+}, 5000);
