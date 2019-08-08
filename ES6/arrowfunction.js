@@ -1,4 +1,4 @@
-var elements = ["Hydrogen", "Helium", "Lithium", "Beryllium"];
+var elements = ['Hydrogen', 'Helium', 'Lithium', 'Beryllium'];
 
 console.log(
   // Old syntax

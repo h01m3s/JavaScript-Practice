@@ -1,12 +1,12 @@
 for (var i = 0; i < 5; i++) {
   setTimeout(() => {
-    console.log("var: " + i);
+    console.log('var: ' + i);
   }, 1000);
 }
 
 for (let i = 0; i < 5; i++) {
   setTimeout(() => {
-    console.log("let: " + i);
+    console.log('let: ' + i);
   }, 1000);
 }
 
@@ -21,7 +21,7 @@ for (let i = 0; i < 5; i++) {
 function foo1() {
   return {
     // will return correctly
-    bar: "hello"
+    bar: 'hello'
   };
 }
 
